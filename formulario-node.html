@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="David Canle Roza" />
+    <meta name="description" content="Formulario para añadir opniones sobre Node.js" />
+    <meta name="keywords" content="Node.js, formulario, opinion, opiniones" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+
+    <title>Formulario de opiniones</title>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1> Node.js</h1>
+    </header>
+    <nav>
+        <a tabindex="1" accessKey="I" href="index.html">Inicio</a>
+        <a tabindex="2" accesskey="A" href="aspectos-tecnicos.html">Aspectos Técnicos</a>
+        <a tabindex="3" accesskey="N" href="node-vs-php.html">Node vs PHP</a>
+        <a tabindex="4" accesskey="F" href="formulario-node.html">Formulario</a>
+    </nav>
+    <!-- Datos con el contenido que aparece en el navegador -->
+    <main>
+    <h1> Formulario para opiniones de Node.js </h1>
+    <form>
+        <p><label for="name">Introduzca su nombre: </label><input id="name" type="text" /> </p>
+        <p><label for="email">Introduzca su email: </label><input id="email" type="email" /> </p>
+        <p><label for="telefono">Teléfono:</label><input id="telefono" type=tel></p>
+        <fieldset>
+            <legend> Seleccione tipo de reseña: </legend>
+            <p><label for="positiva"> Positiva </label> <input id="positiva" type="radio"></p>
+            <p><label for="negativa"> Negativa </label> <input id="negativa" type="radio"></p>
+        </fieldset>
+        <p><label for="opinion">Escriba su opinión:</label> <textarea id="opinion"></textarea></p>
+        <p><input type="submit" value="Enviar" /></p>
+    </form>
+    </main>
+    <section>
+        <h2>Información sobre node.js</h2>
+        <img alt="logo de Node.js" src="multimedia/nodejs-logo.png">
+        <p>Si tienes alguna duda sobre la documentación la puedes consultar <a href="https://nodejs.org/es/docs/">aquí</a></p>
+    </section>
+    <footer>      
+        <p>Práctica de HTML y CSS para la asignatura de SEW realizada por David Canle Roza</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/***********************
+ David Canle Roza - UO258403
+Descripción de los estilos
+************************/
+/* specificity = 001*/
+header {
+    background-color: orange;
+    border: 0.25em solid red;
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* specificity = 001*/
+nav {
+    background-color: red;
+    border: 0.25em solid black;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+/* specificity = 001*/
+section {
+    background-color: aliceblue;
+    border: 0.25em solid blue;
+    padding: 0.5em;
+}
+
+/* specificity = 001*/
+footer {
+    background-color: lightgreen;
+    border: 0.25em solid green;
+    padding: 0.5em;
+
+}
+
+/* specificity = 001*/
+main {
+    background-color: yellow;
+    border: 0.25em solid gray;
+    padding: 0.5em;
+
+}
+
