@@ -4,20 +4,17 @@ Descripción de los estilos
 ************************/
 /* specificity = 001*/
 h1 {
-    color: black;
     font-size: 2em;
     text-align: center;
 }
 
 /* specificity = 001*/
 h2 {
-    color: black;
     font-size: 1.5em;
 }
 
 /* specificity = 001*/
 p {
-    color: black;
     font-size: 1em;
     text-align: justify;
 }
@@ -25,6 +22,7 @@ p {
 /* specificity = 001*/
 body {
     background-color: darkgreen;
+    color:black;
 }
 
 /* specificity = 005*/
@@ -34,11 +32,17 @@ section,
 nav,
 footer {
     background-color: lightgreen;
+    color: black;
     font-size: 1.5em;
 }
 /* specificity = 001*/
 nav{
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    gap : 1em;
 }
+
+table{
+    font-size: 1.5em;
+}
+
